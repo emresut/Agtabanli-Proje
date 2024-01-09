@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+body{
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../resimler/futbolarkaplan2.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+
+/* Navigasyon bar için yazılan css kodları mevcuttur. Header yazılmıştır.*/
+/* İmg ve divler için yazılmış css kodları bulunmaktadır.*/
+
+
+header{
+    background-color:dimgray;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.801);
+    width: 100%;
+    height: 70px;
+}
+
+.topside{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 7px 75px;
+}
+
+/* Dropdown menü için yazılan css kodları aşağı kısımlarda bulunmaktadır.*/
+
+.mylist{
+    display: flex;
+}
+
+.mylist li a{
+    margin-left: 104px;
+    background-color: #43A047;
+    padding:  5px 15px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    width: 20px;
+}
+
+.mylist li a:hover{
+    background-color: white;
+
+}
+
+.mywidth{
+    width: 300px;
+}
+
+.justcolor{
+    color: #263238;
+}
+
+.takimlarigor {
+    color: goldenrod;
+}
+
+
+
+
+
+
+ul li ul.mydown li{
+    display: block;
+    width: 0px;
+    background-color: #43A047;
+    margin: 5px -100px;
+    border-radius: 10px;
+}
+
+ul li ul.mydown {
+    width: auto;
+    background-color: #43A047;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 0px;
+}
+
+ul li:hover ul.mydown{
+    height: 127px;
+    width: 174px;
+    margin-left: 104px;
+    display: block;
+}
+
+
+
+
+
+.headerresim{
+    top: 10px;
+    left: 50px;
+
+}
+
+.headerresimboyut{
+    height: 60px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+.topresmi{
+    display: block;
+    position: absolute;
+    left: 295px;
+    top: 260px;
+    width: 220px;
+    height: 220px; 
+}
+
+.kartresmi{
+    display: block;
+    position: absolute;
+    left: 1025px;
+    top: 235px;
+    width: 250px;
+    height: 250px; 
+}
+
+.topresimboyut{
+    width: 210px;
+    height: 210px;
+}
+
+.kartresimboyut{
+    width: 210px;
+    height: 250px;
+}
+
+.middlediv{
+    background-color: #263238;
+    display: block;
+    position: absolute;
+    left: 551px;
+    top: 208px;
+    height: 380px;
+    width: 460px;
+    border-radius: 20px;
+}
+
+.h1yazi{
+    color: #43A047;
+    padding-top: 50px;
+}
+
+.takimsec{
+    display: flex;
+    color: dimgray;
+}
+
+.takimsec a{
+    margin-left: 130px;
+    background-color: #43A047;
+    color: goldenrod;
+    padding:  5px 15px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.takimsec a:hover{
+    background-color: white;
+}
+
+.sahaimgdiv{
+    padding-top: 30px;
+    padding-left: 155px;
+    height: 40px;
+    width: 148px;
+}
+
+.sahaimg{
+    height: 40px;
+    width: 148px;
+}
+
+.topresim2{
+    padding-left: 202px;
+    padding-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.topresimboyut2{
+    width: 60px;
+    height: 60px;
+}
